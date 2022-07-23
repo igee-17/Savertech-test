@@ -1653,7 +1653,6 @@ SECTION SIX STYLES END
 }
 .section-nine .green-heading .icons-center a {
   margin-right: 17px;
-  height: 900px;
 }
 /* FOOTER STYLES START */
 footer {
@@ -1668,7 +1667,7 @@ footer {
 
 footer .footer-center {
   min-height: 220vh;
-  width: 90%;
+  width: 85vw;
   /* border: 2px solid white; */
   display: flex;
   flex-direction: column;
@@ -1717,6 +1716,12 @@ footer .subscription button {
   font-size: 20px;
   text-align: center;
   background: var(--deep-green);
+  transition: var(--transition-fast);
+}
+footer .subscription button:hover {
+  transition: var(--transition-fast);
+  cursor: pointer;
+  background: #1ebd53;
 }
 
 footer .further-info .row {
@@ -1735,34 +1740,68 @@ footer .copyright {
   /* border: 2px solid red; */
   border-top: 2px solid #40454f;
   height: 140px;
+  width: 85vw;
   display: flex;
   /* justify-content: center; */
   align-items: center;
 }
 
 @media only screen and (min-width: 1200px) {
-  .section-nine {
-    /* position: relative; */
-  }
   .section-nine .green-heading {
     background-size: cover;
 
     position: absolute;
-    transform: translateY(-50%) translateX(20vw);
-    width: 60vw;
+    transform: translateY(-50%) translateX(8vw);
+    width: 84vw;
     margin: 0 auto;
     /* align-self: center; */
     justify-self: center;
     z-index: 1;
+    border-radius: 10px 10px;
   }
-  footer .further-info {
+  .section-nine .green-heading .text {
+    height: 23%;
+    width: 90%;
+    margin-bottom: 5px;
+    /* border: 2px solid red; */
+  }
+  .section-nine .green-heading .icons-center {
+    margin-top: 30px;
     border: 2px solid blue;
-    display: flex;
-    flex-direction: row;
+  }
+  footer {
+    align-items: flex-start;
+    min-height: 160vh;
   }
   footer .footer-center {
-    border: 2px solid white;
+    margin-left: 8vw;
+  }
+
+  footer .footer-center {
+    /* border: 2px solid white; */
     margin-top: 35vh;
+    min-height: 60vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  footer .subscription {
+    width: 35vw;
+    height: 50vh;
+    margin-top: 0px;
+  }
+
+  footer .further-info {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    width: 45vw;
+    justify-content: space-between;
+  }
+
+  footer .copyright {
+    margin-left: 8vw;
   }
 }
 /* FOOTER STYLES END */
