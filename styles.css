@@ -750,8 +750,8 @@ SECOND SECTION STYLES ENDS
     margin-right: 5px;
   }
   .section-four .info2 {
-    height: 500px !important;
-    border: 2px solid red;
+    height: 470px !important;
+    /* border: 2px solid red; */
   }
 }
 
