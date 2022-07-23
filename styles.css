@@ -1677,7 +1677,8 @@ footer .further-info ul li a {
 footer .copyright {
   font-size: 20px;
   /* border: 2px solid red; */
-  height: 140px;
+  border-top: 2px solid var(--faint-grey-color);
+  height: 100px;
   width: 85vw;
   display: flex;
   /* justify-content: center; */
@@ -1707,7 +1708,7 @@ footer .copyright {
   }
   footer {
     align-items: flex-start;
-    min-height: 160vh;
+    min-height: 130vh;
   }
   footer .footer-center {
     margin-left: 8vw;
@@ -1737,6 +1738,7 @@ footer .copyright {
 
   footer .copyright {
     margin-left: 8vw;
+    /* height: 50px; */
   }
 }
 /* FOOTER STYLES END */
