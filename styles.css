@@ -1314,7 +1314,8 @@ SECTION SIX STYLES END
     grid-template-columns: 40vw 40vw 40vw 40vw 40vw 40vw;
   }
   .reviews-slider {
-    transform: translateX(-51%);
+    transform: translateX(-21%);
+    transition: all 5s linear;
   }
   /* .section-seven .section-center .reviews .card {
   } */
