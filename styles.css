@@ -739,14 +739,14 @@ SECOND SECTION STYLES ENDS
     width: 45vw;
   }
   .link-container {
-    width: 20%;
+    /* width: 20%; */
   }
   .nav-center .link-container h3 {
     font-size: 10px;
   }
   .link-container .sign-up {
     height: 35px;
-    width: 80px;
+    width: 90px;
     margin-right: 5px;
   }
   .section-four .info2 {
