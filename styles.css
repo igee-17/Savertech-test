@@ -736,7 +736,7 @@ SECOND SECTION STYLES ENDS
 /* configurations for really small screen */
 @media only screen and (max-width: 500px) {
   .get-started {
-    width: 50vw;
+    width: 45vw;
   }
   .link-container {
     width: 20%;
@@ -748,6 +748,9 @@ SECOND SECTION STYLES ENDS
     height: 35px;
     width: 80px;
     margin-right: 5px;
+  }
+  .section-four .info2 {
+    height: 500px;
   }
 }
 
