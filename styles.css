@@ -404,10 +404,6 @@ a {
   display: none;
 }
 @media only screen and (min-width: 900px) {
-  * {
-    /* overflow-x: hidden; */
-  }
-
   .first-section-center {
     display: flex;
     flex-direction: row;
@@ -443,9 +439,7 @@ a {
     overflow: hidden;
     height: 98vh;
   }
-  .circle-container {
-    /* overflow-x: hidden; */
-  }
+
   .big-circle {
     position: absolute;
     display: block;
@@ -1075,7 +1069,7 @@ SECTION FIVE STYLES START
     /* position: relative; */
     height: 80vh;
     width: 40vw;
-    transform: translateY(-110%) translateX(-20%);
+    transform: translateY(-100%) translateX(-15%);
     /* z-index: 4; */
   }
 
@@ -1100,10 +1094,7 @@ SECTION FIVE STYLES START
     height: 70vh;
     width: 40vw;
   }
-  .section-five .info-container .text .heading-text {
-    /* width: 70vw; */
-    /* height: 30ch; */
-  }
+
   .section-five .info-container .text figure {
     width: 350px;
     margin-bottom: 15px;
