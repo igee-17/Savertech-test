@@ -733,6 +733,20 @@ SECOND SECTION STYLES ENDS
   transition: all 0.2s linear 0s;
 }
 
+/* configurations for really small screen */
+@media only screen and (max-width: 500px) {
+  .get-started {
+    width: 50vw;
+  }
+  .nav-center .link-container h3 {
+    font-size: 10px;
+  }
+  .link-container .sign-up {
+    height: 35px;
+    width: 80px;
+  }
+}
+
 /* configuration for large screen */
 @media only screen and (min-width: 1200px) {
   .third-section {
