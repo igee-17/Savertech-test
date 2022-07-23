@@ -330,7 +330,6 @@ a {
   position: relative;
   /* width: 95vw; */
   background: transparent;
-  border: 2px solid red;
 }
 .first-section-center {
   /* overflow: hidden; */
@@ -348,7 +347,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 2px solid red;
 }
 
 .description-center h1 {
@@ -411,7 +409,6 @@ a {
   }
 
   .first-section-center {
-    border: 2px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -470,12 +467,7 @@ a {
   .description-center .info {
     height: 25%;
   }
-  .first-section-center .image-container {
-    border: 2px solid blue;
-  }
-  .first-section-center .image-container .image-center {
-    /* transform: translateX(-20%); */
-  }
+
   .first-section-center .image-container aside {
     height: 185px;
     background: white;
@@ -504,7 +496,6 @@ SECOND SECTION STYLES START*/
   position: relative;
   /* position: relative; */
   /* background: transparent; */
-  border: 2px solid green;
   z-index: -1;
 }
 
@@ -1316,7 +1307,6 @@ SECTION SIX STYLES END
     height: 80vh;
     display: flex;
     align-items: center;
-    border: 2px solid blue;
   }
   .section-seven h1 {
     font-size: 50px;
@@ -1326,7 +1316,6 @@ SECTION SIX STYLES END
     /* justify-content: center; */
     padding-top: 10px;
     height: 70vh;
-    border: 2px solid red;
   }
   .section-seven .section-center .reviews {
     width: 240vw;
@@ -1696,7 +1685,6 @@ footer .further-info ul li a {
 footer .copyright {
   font-size: 20px;
   /* border: 2px solid red; */
-  border-top: 2px solid #40454f;
   height: 140px;
   width: 85vw;
   display: flex;
