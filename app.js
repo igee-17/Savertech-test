@@ -58,8 +58,15 @@ const scaleImages = () => {
   });
 };
 
-// function to add animations on scrollTestimonia
 const revealSite = () => {
+  // function to animate first section on page load
+  window.addEventListener("load", () => {
+    // console.log("hello");
+    const hero = document.querySelector(".first-section-center");
+    hero.classList.add("active");
+  });
+
+  // function to add animations on scroll
   window.addEventListener("scroll", reveal);
   function reveal() {
     const reveals = [...document.querySelectorAll(".reveal")];

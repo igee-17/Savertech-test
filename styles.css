@@ -12,7 +12,7 @@ a {
   /* overflow-x: hidden; */
 }
 .app-container {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .reveal {
   opacity: 0;
@@ -46,12 +46,6 @@ a {
 /* STYLES FOR FIRST SECTION START */
 /*  */
 /*  */
-.first-section {
-  /* padding: 10px 10px; */
-  /* border: 2px solid red; */
-  min-height: 120vh;
-  width: 95vw;
-}
 
 .nav-container {
   /* border: 2px solid blue; */
@@ -329,20 +323,32 @@ a {
 /* NAV BAR STYLES ENDS */
 
 /* FIRST SECTION MAIN CONTENT STYLES */
+
+.first-section {
+  /* overflow: visible; */
+  /* height: 110vh; */
+  position: relative;
+  /* width: 95vw; */
+  background: transparent;
+  border: 2px solid red;
+}
 .first-section-center {
+  /* overflow: hidden; */
   min-height: 100vh;
-  width: 95vw;
+
+  /* width: 95vw; */
 }
 
 .description-center {
   margin: 2px 25px;
   padding-top: 20px;
-  width: 95%;
-  height: 96vh;
+  /* width: 95%; */
+  height: 90vh;
   margin-top: 70px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 2px solid red;
 }
 
 .description-center h1 {
@@ -401,9 +407,11 @@ a {
 }
 @media only screen and (min-width: 900px) {
   * {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
+
   .first-section-center {
+    border: 2px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -439,7 +447,7 @@ a {
     height: 98vh;
   }
   .circle-container {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   .big-circle {
     position: absolute;
@@ -454,13 +462,19 @@ a {
       var(--whitish-grey-color),
       white
     );
-    transform: translateY(-76%) translateX(20%);
+    transform: translateY(-74%) translateX(120%);
     border-radius: 50%;
-    overflow: hidden;
+    /* overflow: hidden; */
     z-index: -999;
   }
   .description-center .info {
     height: 25%;
+  }
+  .first-section-center .image-container {
+    border: 2px solid blue;
+  }
+  .first-section-center .image-container .image-center {
+    /* transform: translateX(-20%); */
   }
   .first-section-center .image-container aside {
     height: 185px;
@@ -483,11 +497,15 @@ a {
 SECOND SECTION STYLES START*/
 .second-section {
   height: 150vh;
-  width: 95vw;
+  /* width: 95vw; */
   display: flex;
   align-items: center;
   color: var(--light-grey-color);
   position: relative;
+  /* position: relative; */
+  /* background: transparent; */
+  border: 2px solid green;
+  z-index: -1;
 }
 
 .second-section .section-center {
