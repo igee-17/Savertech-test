@@ -1272,9 +1272,8 @@ SECTION SIX STYLES END
   */
 .section-seven {
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   background: linear-gradient(#ffffff, var(--white-color-primary));
-  border: 2px solid red;
   display: flex;
   /* justify-content: center; */
   /* align-items: center; */
@@ -1288,7 +1287,7 @@ SECTION SIX STYLES END
   justify-content: space-between;
 }
 .section-seven h1 {
-  font-size: 45px;
+  font-size: 42px;
   text-align: center;
   margin-top: 25px;
   /* border: 2px solid blue; */
@@ -1377,7 +1376,6 @@ SECTION SIX STYLES END
 .section-eight {
   height: 250vh;
   border: 2px solid blue;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1431,21 +1429,14 @@ SECTION SIX STYLES END
 
 .section-eight .images {
   margin-top: 80px;
-  border: 2px solid black;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
   height: 185vh;
   align-items: center;
 }
 .section-eight .images .small a {
   overflow: hidden;
-  /* height: 85vw; */
-  /* margin-bottom: 20px; */
-  border: 2px solid red;
 }
 .section-eight .images .small {
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1560,6 +1551,9 @@ SECTION SIX STYLES END
 
     /* z-index: 3; */
   }
+  .section-eight .images .small {
+    height: 100vh;
+  }
   .section-eight .images .large img {
     width: 50vw;
     height: 90vh;
@@ -1621,12 +1615,10 @@ SECTION SIX STYLES END
 .section-nine footer ul {
   list-style-type: none;
 }
-.section-nine footer a {
-  color: white;
-}
+
 .section-nine .section-center {
   min-height: 80vh;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100%;
   /* padding:  */
 }
@@ -1634,6 +1626,7 @@ SECTION SIX STYLES END
   background: url("./resources/images/green-background.png");
   background-repeat: no-repeat;
   background-size: auto;
+
   height: 50vh;
   display: flex;
   flex-direction: column;
@@ -1646,7 +1639,7 @@ SECTION SIX STYLES END
   height: 40%;
   width: 90%;
   margin-bottom: 30px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1664,7 +1657,7 @@ SECTION SIX STYLES END
 }
 /* FOOTER STYLES START */
 footer {
-  height: 120vh;
+  min-height: 220vh;
   background: black;
   color: white;
   display: flex;
@@ -1674,9 +1667,103 @@ footer {
 }
 
 footer .footer-center {
-  height: 100vh;
+  min-height: 220vh;
   width: 90%;
-  border: 2px solid white;
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+footer .subscription {
+  border: 2px solid red;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 20px 20px; */
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+footer .subscription h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+footer .subscription .input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .subscription input {
+  border: none;
+  height: 60px;
+  width: 300px;
+  margin-right: 30px;
+  border-radius: 10px 10px;
+  padding: 20px 20px;
+  background: var(--light-grey-color);
+  color: white;
+  text-decoration: none;
+  /* font-weight: bold; */
+  opacity: 1;
+  font-size: 20px;
+}
+
+footer .subscription button {
+  height: 60px;
+  border: none;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background: var(--deep-green);
+}
+
+footer .further-info .row {
+  margin-bottom: 100px;
+}
+footer .further-info ul li {
+  margin-bottom: 25px;
+}
+
+footer .further-info ul li a {
+  color: var(--white-color-primary);
+  font-size: 19px;
+}
+footer .copyright {
+  font-size: 20px;
+  /* border: 2px solid red; */
+  border-top: 2px solid #40454f;
+  height: 140px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .section-nine {
+    /* position: relative; */
+  }
+  .section-nine .green-heading {
+    background-size: cover;
+
+    position: absolute;
+    transform: translateY(-50%) translateX(20vw);
+    width: 60vw;
+    margin: 0 auto;
+    /* align-self: center; */
+    justify-self: center;
+    z-index: 1;
+  }
+  footer .further-info {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+  }
+  footer .footer-center {
+    border: 2px solid white;
+    margin-top: 35vh;
+  }
 }
 /* FOOTER STYLES END */
 
