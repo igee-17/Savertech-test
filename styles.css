@@ -738,6 +738,9 @@ SECOND SECTION STYLES ENDS
   .get-started {
     width: 50vw;
   }
+  .link-container {
+    width: 20%;
+  }
   .nav-center .link-container h3 {
     font-size: 10px;
   }
