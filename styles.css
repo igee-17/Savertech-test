@@ -591,7 +591,8 @@ SECOND SECTION STYLES START*/
   .second-section .section-center .visuals {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 80vw;
+    height: 70vh;
     align-items: center;
     justify-content: center;
   }
@@ -599,8 +600,8 @@ SECOND SECTION STYLES START*/
     font-size: 60px;
   }
   .second-section .section-center .visuals .item {
-    height: 40%;
-    width: 30%;
+    height: 20vh;
+    width: 30vw;
     border-top: 2px solid var(--faint-grey-color);
   }
   .second-section .section-center .visuals .item1 {
