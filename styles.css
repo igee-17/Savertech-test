@@ -1082,11 +1082,9 @@ SECTION FIVE STYLES START
     position: absolute;
     width: 40vw;
     height: 80vh;
-    margin-top: 190px;
-    /* display: inline; */
     transform: translateX(120%);
     z-index: 599;
-    /* border: 2px solid red; */
+    border: 2px solid red;
   }
   .section-five .visual-wrapper img {
     width: 85%;
@@ -1217,11 +1215,12 @@ SECTION SIX STYLES START
 .section-six .visual-center figure {
   height: 110px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-direction: column;
   font-size: 30px;
 }
 .section-six .visual-center figure p {
+  margin-top: 10px;
   line-height: 30px;
 }
 @media only screen and (min-width: 1200px) {
@@ -1256,11 +1255,9 @@ SECTION SIX STYLES START
     border: 2px solid red;
   }
   .section-six .visual-center {
-    /* position: absolute; */
     width: 50vw;
-    height: 40vh;
-
-    /* bottom: 0; */
+    height: 45vh;
+    border: 2px solid blue;
     left: 0;
   }
 }
