@@ -744,6 +744,7 @@ SECOND SECTION STYLES ENDS
   .link-container .sign-up {
     height: 35px;
     width: 80px;
+    margin-right: 5px;
   }
 }
 
