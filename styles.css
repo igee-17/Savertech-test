@@ -1114,9 +1114,6 @@ SECTION FIVE STYLES START
   }
   .section-five .info-container h1 {
     font-size: 50px;
-    /* width: 80%; */
-    /* height: 30%; */
-    /* border: 2px solid blue; */
   }
   .section-five .info-container p {
     font-size: 18px;
@@ -1126,7 +1123,7 @@ SECTION FIVE STYLES START
   .section-five .info-container .text {
     height: 65vh;
     width: 40vw;
-    border: 2px solid red;
+    border: 2px solid blue;
   }
   .section-five .info-container .text .heading-text {
     width: 80%;
